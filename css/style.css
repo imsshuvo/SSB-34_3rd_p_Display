@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+}
+body{
+	font-family: 'Roboto Slab', serif;
+	background:#fff;
+}
+header{
+	padding: 40px;
+	position: relative;
+}
+.container{
+	width: 1140px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo{
+    list-style: none;
+    float: left;
+}
+.logo img{
+	float: left;
+}
+.logo h1{
+	color: #737373;
+	float: left;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.social{
+	float: right;
+}
+.social ul{}
+.social ul li{
+	list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+.social ul li a{}
+.social ul li :hover{}
+span{
+	text-align: center;
+    border: 1px solid #6E7479;
+    display: block;
+    margin-top: 90px;
+}
+.menu_section{
+	float: left;
+	padding-left: 10px;
+}
+.menu{}
+.menu ul{
+	padding-left: 5%;
+}
+.menu ul li{
+	list-style: none;
+    display: inline-block;
+    padding: 50px;
+    font-size: 20px;
+    margin-top: -50px;
+}
+.menu ul li a{
+	color: #737373;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+	color: #2CC26B;
+}
+.banner_section{
+	margin-top: 50px;
+	height: 100vh;
+	background: url(../images/slider_background.png);
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.banner{}
+.banner img{
+    position: absolute;
+    text-align: center;
+    display: block;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+}
+.contant_section{
+	padding: 110px 0;
+	text-align: center;
+}
+.contant{
+ }
+.contant p{
+	text-transform: uppercase;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 25px;
+    padding-bottom: 25px;
+}
+.batun{
+	padding-top: 20px;
+}
+.batun button{
+	border: 1px solid #E5E5E5;
+	color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    background: #2ecc71;
+}
+.batun button:hover{
+	cursor: pointer;
+	color: #2ecc71;
+	background: #fff;
+}
+.about_section{
+	padding: 60px;
+	background: #332F30;
+}
+.about{
+}
+.about h2{
+	text-transform: uppercase;
+	margin-top: 10px;
+	padding-left: 10%;
+	float: left;
+	color: #fff;
+}
+.about button{
+	float: right;
+	border:none;
+	color: white;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    background: #2ecc71;}
+.about button:hover{
+	cursor: pointer;
+	color: #2ecc71;
+	background: #fff;
+}
+footer{
+	margin: 0 auto;
+	padding: 15px;
+}
+.content1{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.content1 h2{
+	font-size: 15px;
+}
+.content2{
+	float: right;
+	text-align: center;
+}
+.content2 h2{
+	font-size: 15px;
+
+}
